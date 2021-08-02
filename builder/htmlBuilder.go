@@ -67,7 +67,7 @@ func (b *HTMLBuilder) AddChildFluent(childName, childText string) *HTMLBuilder {
 	return b
 }
 
-func main() {
+func HtmlBuilder() {
 	// ===== NAIVE APPROACH =====
 	hello := "hello"
 	sb := strings.Builder{}
