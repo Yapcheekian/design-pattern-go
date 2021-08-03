@@ -19,7 +19,7 @@ func NewPerson(name string, age int) Person {
 	return &person{name, age}
 }
 
-func main() {
+func __main() {
 	p := NewPerson("Yap", 25)
 	p.SayHello()
 }
