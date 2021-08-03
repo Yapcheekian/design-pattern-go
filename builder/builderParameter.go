@@ -46,7 +46,7 @@ func SendEmail(action build) {
 	sendMailImpl(&builder.email)
 }
 
-func main() {
+func _main() {
 	SendEmail(func(eb *EmailBuilder) {
 		eb.From("a@a.com").
 			To("b@b.com").
